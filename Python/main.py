@@ -24,11 +24,11 @@ DATA_PATH = ""
 EM_PATH = ""
 c_type = ""
 
-eset_T = pd.read_csv(f"{DATA_PATH}{c_type}_eset_T.csv",index_col=0) # gene,sample
-eset_N = pd.read_csv(f"{DATA_PATH}{c_type}_eset_N.csv",index_col=0) # gene,sample
-mset = pd.read_csv(f"{DATA_PATH}{c_type}_mset_T.csv",index_col=0) # gene,sample
-CNV = pd.read_csv(f"{DATA_PATH}{c_type}_CNV.csv",index_col='Patient_barcode') # sample,gene
-methyl = pd.read_csv(f"{DATA_PATH}{c_type}_methylation.csv",index_col=0)  #sample,gene
+eset_T = pd.read_csv(f"{DATA_PATH}{c_type}_eset_T.csv",index_col=0) 
+eset_N = pd.read_csv(f"{DATA_PATH}{c_type}_eset_N.csv",index_col=0) 
+mset = pd.read_csv(f"{DATA_PATH}{c_type}_mset_T.csv",index_col=0) 
+CNV = pd.read_csv(f"{DATA_PATH}{c_type}_CNV.csv",index_col='Patient_barcode') 
+methyl = pd.read_csv(f"{DATA_PATH}{c_type}_methylation.csv",index_col=0)  
 edges = pd.read_csv(f"{DATA_PATH}network.csv")
 KO = pd.read_csv(f"{DATA_PATH}/{c_type}_driver.csv")['Gene_symbol'].values
 
