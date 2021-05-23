@@ -19,7 +19,7 @@ python = 3.6.2
 ### 실험 예제
 아래의 코드는 Python 폴더 내의 main.py이며 당신의 데이터셋으로 실험을 진행할때 아래의 설명대로 진행하면 된다.
 
-```
+```python
 # 데이터셋이 존재하는 경로
 DATA_PATH = ""
 # Effect Matrix를 저장할 경로
